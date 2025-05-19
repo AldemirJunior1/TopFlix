@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.text-header {
+  background-color: #000000;
+  text-align: center;
+  color: #e50914;
+  padding: 2rem 1rem;
+  
+}
+
+.text-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #e50914;
+  border-bottom: 2px solid #e50914;
+  padding-bottom: 5px;
+}
+
+.card {
+  background-color: #222;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.4);
+}
+
+.card-title {
+  color: #e50914;
+}
+
+
+
+/*Youtube*/
+
+.category-btn {
+  background-color: #e50914; /* Vermelho Netflix */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.category-btn:hover {
+  background-color: #b0060f; /* Vermelho mais escuro no hover */
+}
+
+/* Se quiser cores diferentes para cada botão, pode usar IDs ou classes extras */
+
+.category-btn.tecnologia {
+  background-color: #008080; /* Teal */
+}
+
+.category-btn.games {
+  background-color: #ff4500; /* Laranja forte */
+}
+
+.category-btn.mobile {
+  background-color: #007bff; /* Azul */
+}
+
+.category-btn.trailers {
+  background-color: #555555; /* Cinza escuro */
+}
+
+/* Você pode combinar as classes no HTML, por exemplo: 
+<button class="category-btn tecnologia">🧠 Tecnologia</button>
+*/
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
