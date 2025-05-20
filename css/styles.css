@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #141414;
+  color: #ffffff;
   margin: 0;
   padding: 0;
   
@@ -39,6 +39,15 @@ h2 {
   margin-bottom: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.card-img-top {
+  width: 18.94rem;   /* Equivale a 303px */
+  height: 28.81rem;  /* Equivale a 461px */
+  object-fit: cover;
+  border-radius: 0.5rem; /* Deixa os cantos suaves, opcional */
+  margin: auto;
+}
+
 
 .card:hover {
   transform: scale(1.05);
