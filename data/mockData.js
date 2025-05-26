@@ -1,6 +1,6 @@
 const netflixTop10 = [
-  { title: "Stranger Things", img: "https://m.media-amazon.com/images/I/91miBpFYN5L.jpg", description: "Mistério e ficção científica." },
-  { title: "The Witcher", img: "https://images.justwatch.com/poster/258546181/s718/the-witcher.jpg", description: "Aventura e fantasia." },
+  { title: "Stranger Things", img: "https://m.media-amazon.com/images/I/91miBpFYN5L.jpg", description: "Na década de 1980, um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas." },
+  { title: "The Witcher", img: "https://images.justwatch.com/poster/258546181/s718/the-witcher.jpg", description: "O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar em um mundo onde as pessoas, muitas vezes, são mais perversas do que as criaturas selvagens" },
   { title: "Nonnas", img: "https://cinemaeafins.com.br/trilhas/wp-content/uploads/2025/05/trilha-sonora-de-nonnas-2025.webp", description: "Comédia dramática sobre um restaurante comandado por avós italianas." },
   { title: "Paddington in Peru", img: "https://www.sonypictures.ca/sites/canada/files/2025-03/DP_9586683_PADDINGTONINPERU_2000x3000_HEKeyArt_1333x2000_thumbnail-min.jpg", description: "O adorável urso embarca em uma aventura na selva peruana." },
   { title: "Ruby Gillman, Teenage Kraken", img: "https://m.media-amazon.com/images/M/MV5BNDBiOGI3N2UtYjMwMi00MDFkLWFmZjktYThmNjg5NzYwNGI3XkEyXkFqcGc@._V1_.jpg", description: "A animação da DreamWorks estreou na Netflix em 20 de fevereiro de 2024, tornando-se um dos títulos mais assistidos na plataforma." },
