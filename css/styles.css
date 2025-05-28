@@ -7,12 +7,41 @@ body {
   
 }
 
-.text-header {
-  background-color: #000000;
-  text-align: center;
-  color: #e50914;
-  padding: 2rem 1rem;
-  
+.site-title {
+  font-size: 3rem;
+  color: #000000;
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+  user-select: none; /* Impede seleção via mouse */
+  cursor: pointer;
+}
+
+.navbar-centro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      transition: background-color 0.3s ease;
+      background-color: transparent;
+}
+
+.navbar-centro.scrolled {
+      background-color: #ffffff;
+      font-size: 2rem;
+}
+
+.navbar-centro h1 {
+      font-size: 3rem;
+      color: #000000;
+      margin: 0;
+}
+
+body {
+      padding-top: 120px; /* Espaço para header */
 }
 
 .text-header h1 {

@@ -16,6 +16,15 @@ function renderContent(containerId, dataArray) {
   });
 }
 
+window.addEventListener('scroll', function () {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+});
+
 // Mock Netflix e Prime
 renderContent("netflix-list", netflixTop10);
 renderContent("prime-list", primeTop10);
